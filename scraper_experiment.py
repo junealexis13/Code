@@ -10,8 +10,9 @@ ms = pynput.mouse.Controller()
 
 try:
     time.sleep(5)
-    kb.press('/')
-    kb.release('/')
+    # kb.press('/')
+    # kb.release('/')
+    # print("Searching for Bantay Presyo Gitnang Luzon")
     kb.type('bantay presyo gitnang luzon')
     kb.press(Key.enter)
     kb.release(Key.enter)
